@@ -7,16 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ткани Мира</title>
 
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/banner_swiper.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
 </head>
 
 <body>
@@ -159,10 +163,73 @@
             </ul>
         </div>
     </header>
-    <main></main>
+    <main>
+        <section class="banner-slider">
+            <div class="swiper bannerSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide banner-slide">
+                    <img src="./images/main_content/banners/banner_main/main.png" alt="main" 
+                    srcset="./images/main_content/banners/banner_main/main.png 1x,
+                    ./images/main_content/banners/banner_main/main@2x.png 2x, ./images/main_content/banners/banner_main/main@3x.png 3x">
+                  </div>
+                  <div class="swiper-slide banner-slide">
+                    <img src="./images/main_content/banners/banner_rail/rail.png" alt="rail" 
+                    srcset="./images/main_content/banners/banner_rail/rail.png 1x,
+                    ./images/main_content/banners/banner_rail/rail@2x.png 2x, ./images/main_content/banners/banner_rail/rail@3x.png 3x">
+                  </div>
+                  <div class="swiper-slide banner-slide">
+                    <img src="./images/main_content/banners/banner_electro/electro.png" alt="electro" 
+                    srcset="./images/main_content/banners/banner_electro/electro.png 1x,
+                    ./images/main_content/banners/banner_electro/electro@2x.png 2x, ./images/main_content/banners/banner_electro/electro@3x.png 3x">
+                  </div>
+                  <div class="swiper-slide banner-slide">
+                    <img src="./images/main_content/banners/banner_delivery/delivery.png" alt="delivery" 
+                    srcset="./images/main_content/banners/banner_delivery/delivery.png 1x,
+                    ./images/main_content/banners/banner_delivery/delivery@2x.png 2x, ./images/main_content/banners/banner_delivery/delivery@3x.png 3x">
+                  </div>
+                  <div class="swiper-slide banner-slide">
+                    <img src="./images/main_content/banners/banner_contacts/contacts.png" alt="contacts" 
+                    srcset="./images/main_content/banners/banner_contacts/contacts.png 1x,
+                    ./images/main_content/banners/banner_contacts/contacts@2x.png 2x, ./images/main_content/banners/banner_contacts/contacts@3x.png 3x">
+                  </div>
+                  <div class="swiper-slide banner-slide">
+                    <img src="./images/main_content/banners/banner_service/service.png" alt="service" 
+                    srcset="./images/main_content/banners/banner_service/service.png 1x,
+                    ./images/main_content/banners/banner_service/service@2x.png 2x, ./images/main_content/banners/banner_service/service@3x.png 3x">
+                  </div>
+                </div>
+                <div class="swiper-button-next standard-button">
+                    <button class="banner-next">
+                        <img src="./images/main_content/banners/banner_arrows/icon_arrow_right.svg" alt="arrow_right">
+                    </button>
+                </div>
+                <div class="swiper-button-prev standard-button">
+                    <button class="banner-prev">
+                        <img src="./images/main_content/banners/banner_arrows/icon_arrow_left.svg" alt="arrow_left">
+                    </button>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+
+        <section class="category"></section>
+
+        <section class="products"></section>
+
+        <section class="fabric"></section>
+
+        <section class="social">
+            <!-- inst widget -->
+            <!-- <iframe src='/inwidget/index.php?adaptive=true' scrolling='no' frameborder='no' style='border:none;width:260px;height:330px;overflow:hidden;'></iframe>  -->            
+        </section>
+
+        <section class="feedback"></section>
+
+        <section class="about"></section>
+    </main>
     <footer></footer>
-<!-- inst widget -->
-<!-- <iframe src='/inwidget/index.php?adaptive=true' scrolling='no' frameborder='no' style='border:none;width:260px;height:330px;overflow:hidden;'></iframe>  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/banner_swiper.js"></script>
 </body>
 
 </html>
