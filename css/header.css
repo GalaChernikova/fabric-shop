@@ -121,12 +121,13 @@
     height: 50px;
     margin-right: 2px;
 }
-.icon-text__title{
+.icon-text__title a{ 
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 10px;
+    color: #292E31;
 }
-.icon-text__description{
+.icon-text__description a{
     font-weight: 300;
     font-size: 12px;
     color: #e3510e;
@@ -136,13 +137,13 @@
     max-width: 165px;
     width: 100%;
 }
-.icon-text__items-total{
+.icon-text__items-total a {
     font-weight: 300;
     font-size: 16px;
-    margin-bottom: 10px;
     width: 100%;
     padding-bottom: 5px;
     border-bottom: 1px solid #D3E3DD;
+    color: #292E31;
 }
 .items-total--bold{
     font-weight: 500;
@@ -150,6 +151,7 @@
 .icon-text__cart-status{
     font-weight: 300;
     font-size: 16px;
+    margin-top: 15px;
 }
 
 
