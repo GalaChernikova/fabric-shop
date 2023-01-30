@@ -1,20 +1,79 @@
 .category{
+    display: grid;
     max-width: 1140px;
     width: 100%;
     margin: 50px auto 80px;
 }
-.category-block{
+
+.all-blocks{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+
+.block--electro { grid-area: 1 / 1 / 2 / 2; }
+.block--shutter{ grid-area: 2 / 1 / 3 / 2; }
+.block--fabric { grid-area: 1 / 2 / 3 / 3; }
+.block--rails { grid-area: 3 / 1 / 4 / 3; }
+.block--accessories { grid-area: 1 / 3 / 3 / 4; }
+.block--finished { grid-area: 1 / 4 / 2 / 5; }
+.block--wallpapers { grid-area: 2 / 4 / 3 / 5; }
+.block--services { grid-area: 3 / 3 / 4 / 5; }
+
+
+.block--electro{
     position: relative;
-    max-width: 275px;
-    width: 100%;
-    height: 210px;
+    background-image: url("./../images/main_content/categories/electrorails/electrorails.png");
+    background-repeat: no-repeat;
+}
+.block--shutter{
+    position: relative;
+    background-image: url("./../images/main_content/categories/shutter/shutter.png");
+    background-repeat: no-repeat;
+}
+.block--fabric{
+    position: relative;
+    background-image: url("./../images/main_content/categories/fabric/fabric.png");
+    background-repeat: no-repeat;
+}
+.block--rails{
+    position: relative;
+    background-image: url("./../images/main_content/categories/rails/rails.png");
+    background-repeat: no-repeat;
+}
+.block--accessories{
+    position: relative;
+    background-image: url("./../images/main_content/categories/accessories/accessories.png");
+    background-repeat: no-repeat;
+}
+.block--finished{
+    position: relative;
+    background-image: url("./../images/main_content/categories/finished/finished.png");
+    background-repeat: no-repeat;
+}
+.block--wallpapers{
+    position: relative;
+    background-image: url("./../images/main_content/categories/wallpaper/wallpaper.png");
+    background-repeat: no-repeat;
+}
+.block--services{
+    position: relative;
+    background-image: url("./../images/main_content/categories/services/services.png");
+    background-repeat: no-repeat;
+}
+
+
+.category-block{   
     border-radius: 10px;
 }
 
 .category-name{
     position: absolute;
     max-width: fit-content;
-    top: -33px;
+    top: 15px;
     left: 15px;
 
     font-weight: 400;
@@ -28,22 +87,24 @@
     border-radius: 6px;
 }
 
-.block--electro{
-    background-image: url("./../images/main_content/categories/electrorails/electrorails.png");
-    background-repeat: no-repeat;
-}
 
-.block--electro:hover .category-text{
+
+.block--electro:hover .category-text,
+.block--shutter:hover .category-text,
+.block--fabric:hover .category-text,
+.block--rails:hover .category-text,
+.block--accessories:hover .category-text,
+.block--finished:hover .category-text,
+.block--wallpapers:hover .category-text,
+.block--services:hover .category-text{
     opacity: 1;
     transition: opacity 0.2s;
 }
 .category-text{
-    /* opacity: 0; */
+    opacity: 0;
     display: flex;
     background: rgba(255, 255, 255, 0.82);
-    max-width: 275px;
-    width: 100%;
-    height: 210px;
+    
 
 }
 .text-list{
@@ -52,9 +113,11 @@
     flex-wrap: wrap;
     padding-top: 87px;
     list-style-type: disc;
-    max-width: 152px;
-    width: 100%;
+    height: 122px;
+}
 
+.text-list--vertical{
+    height: 340px;
 }
 .text-list__text-list-item{
     font-weight: 400;
@@ -64,6 +127,10 @@
     
     margin-bottom: 10px;
     margin-left: 30px;
+}
+
+.text-list-item--margin{
+    margin-right: 50px;
 }
 .text-list-link{
     color: #292E31;
