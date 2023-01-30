@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ткани Мира</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__header-links header-links">
+            <div class="header-links__header-links-container header-links-container">
+                <ul class="header-links__links-list links-list">
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">О компании</a></li>
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">Оплата и доставка</a></li>
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">Гарантии</a></li>
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">Наши работы</a></li>
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">Бренды</a></li>
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">Акции</a></li>
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">Услуги</a></li>
+                    <li class="links-list__link-item"><a href="#" class="link-item__link">Контакты</a></li>
+                </ul>
+
+                <div class="header-links__profile-links profile-links">
+                    <div class="profile-links__social-links">
+                        <a href="#" class="social-links__link">
+                            <img src="./images/icons/icons_header/icon_inst.svg" alt="inst" class="link__social-img">
+                        </a>
+                        <a href="#" class="social-links__link">
+                            <img src="./images/icons/icons_header/icon_vk.svg" alt="vk" class="link__social-img">
+                        </a>
+                    </div>
+
+                    <div class="profile-links__account-links account-links">
+                        <a href="#" class="account-links__login-link login-link">
+                            <img src="./images/icons/icons_header/icon_lock.png" alt="login" class="account-links__login-img login-img">
+                            Войти
+                        </a>
+                        <p class="account-links__login-text login-text">или</p>
+                        <a href="#" class="account-links__login-link login-link">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="header__main-header main-header">
+            <div class="main-header__logo-box">
+                <div class="logo-box__tel">
+                    <a href="tel:+74951824681" class="logo-box__tel tel-number">
+                        <img src="./images/icons/icons_header/icon_tel.svg" alt="icon_tel" class="logo-box__tel tel-icon">
+                        +7 (495) 182-46-81
+                    </a>
+                </div>
+                <div class="logo-box__logo-img logo-img">
+                    <a href="./index.html">
+                        <img src="./images/icons/icons_header/icon_logo.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="main-header__form-box">
+                <div class="form-box__form-links form-links">
+                    <div class="form-links__links-boxes">
+                        <div class="link-box">
+                            <div class="link-box__icon--yellow">
+                                <img src="./images/icons/icons_header/icon_price.png" alt="icon_price" class="icon--big">
+                            </div>
+                            <div class="link-box__icon-text">
+                                <div class="icon-text__title">Бренды</div>
+                                <div class="icon-text__description">список фабрик</div>
+                            </div>
+                        </div>
+                        <div class="link-box">
+                            <div class="link-box__icon--yellow">
+                                <img src="./images/icons/icons_header/icon_location.png" alt="icon_location" class="icon--big">
+                            </div>
+                            <div class="link-box__icon-text">
+                                <div class="icon-text__title">Выезд дизайнера</div>
+                                <div class="icon-text__description">в любое удобное время</div>
+                            </div>
+                        </div>
+                        <div class="link-box">
+                            <div class="link-box__icon--yellow">
+                                <img src="./images/icons/icons_header/icon_lightbulb.png" alt="icon_lightbulb" class="icon--big">
+                            </div>
+                            <div class="link-box__icon-text">
+                                <div class="icon-text__title">Готовые решения</div>
+                                <div class="icon-text__description">подбор по схожему интерьеру</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-links__cart">
+                        <div class="link-box__icon--red">
+                            <img src="./images/icons/icons_header/icon_bag.png" alt="icon_bag" class="icon--big">
+                        </div>
+                        <div class="link-box__icon-text">
+                            <div class="icon-text__items-total">
+                                <span>Товаров:<b> 0 шт.</b></span>
+                            </div>
+                            <div class="icon-text__cart-status">Корзина пуста</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-box__search-form search-form">
+                    <form role="search" class="search-form__form">
+                        <input type="search" id="search-field" name="search" placeholder="Я ищу..." class="form__input">
+                        <button class="search__button" type="submit">
+                            <img src="./images/icons/icons_header/icon_search.png" alt="icon_search" class="search__button button-img">
+                            Найти
+                        </button>
+                        
+                      </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__category-links category-links">
+            <ul class="category-links__category-links-list category-links-list">
+                <li>
+                    <a href="#" class="category-links-list__link link--yellow">ТКАНИ ДЛЯ ШТОР</a>
+                </li>
+                <li>
+                    <a href="#" class="category-links-list__link link--orange">ГОТОВЫЕ ШТОРЫ</a>
+                </li>
+                <li>
+                    <a href="#" class="category-links-list__link link--red">ТКАНИ ОПТОМ</a>
+                </li>
+                <li>
+                    <a href="#" class="category-links-list__link link--pink">ОБОИ ДЛЯ СТЕН</a>
+                </li>
+                <li>
+                    <a href="#" class="category-links-list__link link--green">КАРНИЗЫ ДЛЯ ШТОР</a>
+                </li>
+                <li>
+                    <a href="#" class="category-links-list__link link--light-blue">ЭЛЕКТРОКАРНИЗЫ</a>
+                </li>
+                <li>
+                    <a href="#" class="category-links-list__link link--blue">ЖАЛЮЗИ</a>
+                </li>
+                <li>
+                    <a href="#" class="category-links-list__link link--violet">АКСЕССУАРЫ</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
+<!-- inst widget -->
+<!-- <iframe src='/inwidget/index.php?adaptive=true' scrolling='no' frameborder='no' style='border:none;width:260px;height:330px;overflow:hidden;'></iframe>  -->
+</body>
+
+</html>
