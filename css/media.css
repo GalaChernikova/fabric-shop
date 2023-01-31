@@ -1,0 +1,140 @@
+@media (max-width: 1200px) {
+    .bannerSwiper,
+    .category,
+    .products,
+    .fabric,
+    .social,
+    .feedback,
+    .about{
+        max-width: 900px;
+        width: 100%;        
+    }
+
+    .text-list__text-list-item{
+        max-width: 190px;
+        font-size: 13px;
+         line-height: 14px;
+    }
+    .text-list-item--margin{
+        margin-right: 0;
+    }
+    .box--small{
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 950px){
+    .bannerSwiper,
+    .category,
+    .products,
+    .fabric,
+    .social,
+    .feedback,
+    .about{
+        max-width: 800px;
+        width: 100%;        
+    }
+    .category-name{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .social-img{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 850px){
+    .bannerSwiper,
+    .category,
+    .products,
+    .fabric,
+    .social,
+    .feedback,
+    .about{
+        max-width: 700px;
+        width: 100%;        
+    }
+
+    .banner-slider{
+        display: none;
+    }
+    .banner-slider-mobile{
+        display: block;
+    }
+    .banner-prev{
+        margin-left: 72px;
+        padding: 15px 20px;
+        margin-bottom: 55px;
+
+    }
+    .banner-next {
+        padding: 15px 20px;
+        margin-right: 20px;
+        margin-bottom: 55px;
+    }
+
+    .category{
+        display: none;
+    }
+    .category-mobile{
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .category-mobile-box{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .category-mobile-box img{
+        max-width: 500px;
+        width: 100%;
+        
+    }
+    .category-mobile-name{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 9px 18px;
+        background: rgba(35, 43, 44, 0.5);
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+
+        color: #FFFFFF;
+
+    }
+
+    .text-list--mobile{
+        padding-top: 10px;
+        max-height: 100px;
+    }
+   /* .mobile-box--electro .category-mobile-text .text-list--mobile{
+        max-height: 80px;
+    } */
+
+    .social-img{
+        display: none;
+    }
+    .social-pages {
+        max-width: 700px;
+        width: 100%;
+    }
+    .feedback-slide {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .about-container__about-boxes{
+        justify-content: center;
+    }
+    .about-boxes__about-box {
+        max-width: 500px;
+        width: 100%;
+    }
+    
+
+}

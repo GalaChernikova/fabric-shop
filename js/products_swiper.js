@@ -1,6 +1,6 @@
-var swiper = new Swiper(".feedbackSwiper", {
+var swiper = new Swiper(".productSwiper", {
     slidesPerView: 2,
-    spaceBetween: 18,
+    spaceBetween: 30,
     slidesPerGroup: 2,
     loop: true,
     loopFillGroupWithBlank: true,
@@ -9,8 +9,8 @@ var swiper = new Swiper(".feedbackSwiper", {
     //   clickable: true,
     // },
     navigation: {
-      nextEl: ".feedback-next",
-      prevEl: ".feedback-prev",
+      nextEl: ".product-button-next",
+      prevEl: ".product-button-prev",
     },
     mousewheel: true,
     keyboard: true,
@@ -18,14 +18,14 @@ var swiper = new Swiper(".feedbackSwiper", {
         // mobile + tablet - 320-990
         320: {
             slidesPerView: 1,
-            // spaceBetween: 20,
+            spaceBetween: 20,
             slidesPerGroup: 1,
         },
         // desktop >= 991
         991: {
-            slidesPerView: 2,
-            // spaceBetween: 30,
-            slidesPerGroup: 2,
+            slidesPerView: 4,
+            spaceBetween: 20,
+            slidesPerGroup: 4,
         }
     },
   });
