@@ -1,0 +1,52 @@
+.fabric,
+.fabricSwiper{
+    max-width: 1140px;
+    width: 100%;
+
+    margin: 0 auto;
+}
+.fabric-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tit{
+    font-size: 32px;
+    font-weight: 100;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.fabric-box__item-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #292E31;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+.fabric-box__price{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 22px;
+
+    color: #66A38B;  
+    margin-bottom: 7px;
+    text-align: center;
+}
+.fabric-box__old-price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-decoration-line: line-through;
+    color: #66A38B;
+    text-align: center;
+}
+.fabric-slide-next,
+.fabric-slide-prev{
+    visibility: hidden;
+}
