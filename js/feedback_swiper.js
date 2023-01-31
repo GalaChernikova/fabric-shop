@@ -18,7 +18,12 @@ var swiper = new Swiper(".feedbackSwiper", {
         // mobile + tablet - 320-990
         320: {
             slidesPerView: 1,
-            // spaceBetween: 20,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+        },
+        850: {
+            slidesPerView: 1,
+            spaceBetween: 30,
             slidesPerGroup: 1,
         },
         // desktop >= 991
