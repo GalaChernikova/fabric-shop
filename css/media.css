@@ -81,7 +81,7 @@
         flex-direction: column;
         max-width: 500px;
         width: 100%;
-        margin: 0 auto;
+        margin: 20px auto 0;
     }
 
     .category-mobile-box{
@@ -111,10 +111,15 @@
     .text-list--mobile{
         padding-top: 10px;
         max-height: 100px;
+        height: fit-content;
+        max-width: 190px;
     }
-   /* .mobile-box--electro .category-mobile-text .text-list--mobile{
-        max-height: 80px;
-    } */
+
+    .text-list--mobile li{
+        font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+    }
 
     .social-img{
         display: none;
