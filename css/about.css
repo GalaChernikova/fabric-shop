@@ -94,3 +94,10 @@
 
     margin-bottom: 30px;
 }
+
+.about-box--mobile{
+    display: none;
+}
+.about-box--full-screen{
+    gap: 30px;
+}

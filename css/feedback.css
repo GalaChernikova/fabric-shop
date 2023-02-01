@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    justify-content: stretch;
+    justify-content: space-between;
     border: 0.7px solid #EDF4F1;
     border-radius: 10px;
     padding: 28px;
@@ -24,7 +24,7 @@
 .feedback-box-name {
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .feedback-box-name img {

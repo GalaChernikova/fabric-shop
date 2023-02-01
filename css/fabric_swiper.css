@@ -10,6 +10,9 @@
     flex-direction: column;
     justify-content: center;
 }
+.fabric-box img{
+    border-radius: 10px;
+}
 
 
 .fabric-box__item-name{

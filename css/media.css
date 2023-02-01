@@ -13,7 +13,7 @@
     .text-list__text-list-item{
         max-width: 190px;
         font-size: 13px;
-         line-height: 14px;
+        line-height: 14px;
     }
     .text-list-item--margin{
         margin-right: 0;
@@ -84,7 +84,7 @@
         flex-direction: column;
         max-width: 500px;
         width: 100%;
-        margin: 20px auto 0;
+        margin: 20px auto 30px;
     }
 
 
@@ -96,7 +96,7 @@
     .category-mobile-box img{
         max-width: 500px;
         width: 100%;
-        border-radius: 10px;
+        border-radius: 5px;
         
     }
     .category-mobile-name{
@@ -113,21 +113,39 @@
         color: #FFFFFF;
 
     }
+    .category-mobile-text{
+        display: flex;
+        justify-content: space-between;
+    }
 
     .text-list--mobile{
         padding-top: 10px;
-        max-height: 100px;
-        height: fit-content;
+        height: auto;
         max-width: 190px;
     }
 
     .text-list--mobile li{
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 12px;
         line-height: 13px;
+        
+        color: #292E31;
+        margin-left: 15px;
     }
     .text-list-link:hover{
         color: #1C5F4E;
+    }
+
+    .tit{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 22px;
+
+        color: #292E31;
     }
 
     .social-img{
@@ -164,16 +182,16 @@
         width: 100%;        
     }
 
-    .banner-prev,
+    /* .banner-prev,
     .banner-next {
         visibility: hidden;
-    }
+    } */
     .products,
     .feedback{
         margin-bottom: 50px;
     }
     .social{
-        margin: 50px auto 0;
+        margin: 50px auto;
     }
     .about-text--small{
         flex-direction: column;
@@ -205,20 +223,82 @@
 }
 
 @media (max-width: 450px){
-    .category-mobile,
-    .products,
-    .fabric,
-    .social,
-    .feedback,
-    .about{
-        max-width: 350px;
-        width: 100%;        
+
+    .tit{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .product-slide__name,
+    .fabric-box__item-name,
+    .product-slide__code, 
+    .product-slide__manuf{
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 5px;
+        
+    }
+    .banner-prev,
+    .banner-next {
+        visibility: visible;
+    }
+    .banner-next{
+        padding: 3px 9px;
+        margin-right: -20px;
+        margin-bottom: 47px;
+    }
+    .banner-prev{
+        padding: 3px 9px;
+        margin-left: 28px;
+        margin-bottom: 47px;
     }
 
+    .products,
+    .fabric,
+    .feedback {
+        max-width: 450px;
+    }
+    .products-tit,
+    .fabric-tit,
+    .feedback-tit{
+        margin-left: 20px;
+    }
+    .product-slide,
+    .fabric-slide,
+    .feedback-slide{
+        width: 75% !important;
+        left: 130px;
+    }  
+
+    .feedback-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .product-slide__price,
+    .fabric-box__price{
+        font-weight: 400;
+    }
+    .fabric-box__old-price{
+        font-weight: 300;
+    }
     .text-list--mobile {
-        max-height: 145px;
         max-width: 160px;
     }
+    .about-box--mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-box--full-screen{
+        display: none;
+    }
+
+    #vk_groups,
+    iframe{
+        width: 400px !important;
+        height: 400px !important;
+    }
+
 }
 
 @media (max-width: 400px){
@@ -231,6 +311,28 @@
         max-width: 290px;
         width: 100%;        
     }
+
+    .text-list--mobile li{
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .tit{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 22px;
+        line-height: 26px;
+
+        color: #292E31;
+    }
+    .product-slide__name,
+    .fabric-box__item-name,
+    .product-slide__code, 
+    .product-slide__manuf{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
     .social-pages {
         max-width: 290px;
         width: 100%;
@@ -239,6 +341,10 @@
     iframe{
         width: 290px !important;
         height: 297px !important;
+    }
+    .feedback-text {
+        font-size: 11px;
+        line-height: 17px;
     }
 
 

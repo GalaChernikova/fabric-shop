@@ -20,6 +20,7 @@ var swiper = new Swiper(".productSwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,
+            centeredSlides: true,
         },
         // desktop >= 991
         991: {
