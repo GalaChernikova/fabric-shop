@@ -12,6 +12,7 @@ var swiper = new Swiper(".feedbackSwiper", {
       nextEl: ".feedback-next",
       prevEl: ".feedback-prev",
     },
+    updateOnWindowResize: true,
     mousewheel: true,
     keyboard: true,
     breakpoints: {

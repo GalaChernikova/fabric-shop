@@ -12,6 +12,7 @@ var swiper = new Swiper(".fabricSwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    updateOnWindowResize: true,
     mousewheel: true,
     keyboard: true,
     breakpoints: {
@@ -20,6 +21,7 @@ var swiper = new Swiper(".fabricSwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,
+            // centeredSlides: true,
         },
         // desktop >= 991
         991: {

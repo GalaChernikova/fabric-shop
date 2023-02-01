@@ -12,6 +12,7 @@ var swiper = new Swiper(".productSwiper", {
       nextEl: ".product-button-next",
       prevEl: ".product-button-prev",
     },
+    updateOnWindowResize: true,
     mousewheel: true,
     keyboard: true,
     breakpoints: {
@@ -20,7 +21,7 @@ var swiper = new Swiper(".productSwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,
-            centeredSlides: true,
+            // centeredSlides: true,
         },
         // desktop >= 991
         991: {

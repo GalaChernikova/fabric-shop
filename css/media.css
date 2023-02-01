@@ -44,11 +44,16 @@
     .social-img{
         max-width: 400px;
     }
+    .product-slide,
+    .fabric-slide,
+    .feedback-slide{
+        width: 60% !important
+    }
 }
 
 @media (max-width: 850px){
     .bannerSwiper,
-    .category,
+    .category-mobile,
     .products,
     .fabric,
     .social,
@@ -82,7 +87,7 @@
     .category-mobile{
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        max-width: 700px;
         width: 100%;
         margin: 20px auto 30px;
     }
@@ -94,7 +99,7 @@
         margin-bottom: 20px;
     }
     .category-mobile-box img{
-        max-width: 500px;
+        max-width: 700px;
         width: 100%;
         border-radius: 5px;
         
@@ -121,15 +126,15 @@
     .text-list--mobile{
         padding-top: 10px;
         height: auto;
-        max-width: 190px;
+        max-width: 300px;
     }
 
     .text-list--mobile li{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 13px;
+        font-size: 16px;
+        line-height: 18px;
         
         color: #292E31;
         margin-left: 15px;
@@ -149,7 +154,8 @@
     }
 
     .social-img{
-        display: none;
+        max-width: 350px;
+        margin-right: 10px;
     }
     .social-pages {
         max-width: 700px;
@@ -164,10 +170,31 @@
         justify-content: center;
     }
     .about-boxes__about-box {
-        max-width: 500px;
+        max-width: 700px;
         width: 100%;
     }
-    
+
+    .about-box--mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .about-box--full-screen{
+        display: none;
+    }    
+    .button-feedback-prev, 
+    .button-feedback-next{
+        visibility: hidden;
+    }
+    .feedback-box-name img{
+        width: 42px;
+        height: 42px;
+    }
+    .about-boxes__about-box img{
+        width: 35px;
+        height: 35px;
+    }
 
 }
 
@@ -178,7 +205,7 @@
     .social,
     .feedback,
     .about{
-        max-width: 500px;
+        max-width: 600px;
         width: 100%;        
     }
 
@@ -203,6 +230,21 @@
     .button-feedback-next,
     .button-feedback-prev{
         visibility: hidden;
+    }
+}
+
+@media (max-width: 650px){
+    .category-mobile,
+    .products,
+    .fabric,
+    .social,
+    .feedback,
+    .about{
+        max-width: 500px;
+        width: 100%;        
+    }
+    .social-img {
+        display: none;
     }
 }
 
@@ -284,24 +326,126 @@
     .text-list--mobile {
         max-width: 160px;
     }
-    .about-box--mobile{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .about-box--full-screen{
-        display: none;
-    }
+
 
     #vk_groups,
     iframe{
-        width: 400px !important;
-        height: 400px !important;
+        width: 430px !important;
+        height: 430px !important;
     }
 
 }
+@media (max-width: 414px){
+    .category-mobile,
+    .social,
+    .about{
+        max-width: 380px;
+        width: 100%;        
+    }
+    .products,
+    .fabric,
+    .feedback {
+        max-width: 428px;
+    }
+    #vk_groups,
+    iframe{
+        width: 428px !important;
+        height: 428px !important;
+    }
+}
+@media (max-width: 414px){
+    .category-mobile,
+    .social,
+    .about{
+        max-width: 380px;
+        width: 100%;        
+    }
+    .products,
+    .fabric,
+    .feedback {
+        max-width: 414px;
+    }
+    #vk_groups,
+    iframe{
+        width: 414px !important;
+        height: 414px !important;
+    }
+}
+@media (max-width: 390px){
+    .category-mobile,
+    .social,
+    .about{
+        max-width: 360px;
+        width: 100%;        
+    }
+    .products,
+    .fabric,
+    .feedback {
+        max-width: 393px;
+    }
+    #vk_groups,
+    iframe{
+        width: 393px !important;
+        height: 393px !important;
+    }
+}
 
-@media (max-width: 400px){
+@media (max-width: 390px){
+    .category-mobile,
+    .social,
+    .about{
+        max-width: 360px;
+        width: 100%;        
+    }
+    .products,
+    .fabric,
+    .feedback {
+        max-width: 390px;
+    }
+    #vk_groups,
+    iframe{
+        width: 390px !important;
+        height: 390px !important;
+    }
+}
+@media (max-width: 375px){
+    .category-mobile,
+    .social,
+    .about{
+        max-width: 350px;
+        width: 100%;        
+    }
+    .products,
+    .fabric,
+    .feedback {
+        max-width: 375px;
+    }
+    #vk_groups,
+    iframe{
+        width: 375px !important;
+        height: 375px !important;
+    }
+}
+@media (max-width: 360px){
+    .category-mobile,
+    .social,
+    .about{
+        max-width: 330px;
+        width: 100%;        
+    }
+    .products,
+    .fabric,
+    .feedback {
+        max-width: 360px;
+    }
+    #vk_groups,
+    iframe{
+        width: 350px !important;
+        height: 350px !important;
+    }
+}
+
+@media (max-width: 320px){
     .category-mobile,
     .products,
     .fabric,
