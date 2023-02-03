@@ -3,6 +3,7 @@ var swiper = new Swiper(".productSwiper", {
     spaceBetween: 30,
     slidesPerGroup: 4,
     loop: true,
+    isBeginning: true,
     navigation: {
       nextEl: ".product-button-next",
       prevEl: ".product-button-prev",

@@ -3,7 +3,7 @@ var swiper = new Swiper(".feedbackSwiper", {
     spaceBetween: 18,
     slidesPerGroup: 2,
     loop: true,
-    
+    // isBeginning: true,
     navigation: {
       nextEl: ".feedback-next",
       prevEl: ".feedback-prev",

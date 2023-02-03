@@ -137,7 +137,7 @@
         line-height: 18px;
         
         color: #292E31;
-        margin-left: 15px;
+        margin-left: 20px;
     }
     .text-list-link:hover{
         color: #1C5F4E;
@@ -297,19 +297,14 @@
     .products,
     .fabric,
     .feedback {
-        max-width: 450px;
+        max-width: 430px;
     }
     .products-tit,
     .fabric-tit,
     .feedback-tit{
         margin-left: 20px;
     }
-    .product-slide,
-    .fabric-slide,
-    .feedback-slide{
-        width: 75% !important;
-        left: 130px;
-    }  
+
 
     .feedback-text {
         font-size: 15px;
@@ -330,12 +325,12 @@
 
     #vk_groups,
     iframe{
-        width: 430px !important;
-        height: 430px !important;
+        width: 400px !important;
+        height: 400px !important;
     }
 
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
     .category-mobile,
     .social,
     .about{
@@ -349,8 +344,8 @@
     }
     #vk_groups,
     iframe{
-        width: 428px !important;
-        height: 428px !important;
+        width: 380px !important;
+        height: 380px !important;
     }
 }
 @media (max-width: 414px){
@@ -367,11 +362,11 @@
     }
     #vk_groups,
     iframe{
-        width: 414px !important;
-        height: 414px !important;
+        width: 380px !important;
+        height: 380px !important;
     }
 }
-@media (max-width: 390px){
+@media (max-width: 393px){
     .category-mobile,
     .social,
     .about{
@@ -385,8 +380,8 @@
     }
     #vk_groups,
     iframe{
-        width: 393px !important;
-        height: 393px !important;
+        width: 360px !important;
+        height: 360px !important;
     }
 }
 
@@ -404,8 +399,8 @@
     }
     #vk_groups,
     iframe{
-        width: 390px !important;
-        height: 390px !important;
+        width: 360px !important;
+        height: 360px !important;
     }
 }
 @media (max-width: 375px){
@@ -422,8 +417,8 @@
     }
     #vk_groups,
     iframe{
-        width: 375px !important;
-        height: 375px !important;
+        width: 350px !important;
+        height: 350px !important;
     }
 }
 @media (max-width: 360px){
@@ -440,8 +435,8 @@
     }
     #vk_groups,
     iframe{
-        width: 350px !important;
-        height: 350px !important;
+        width: 330px !important;
+        height: 330px !important;
     }
 }
 

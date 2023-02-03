@@ -3,6 +3,7 @@ var swiper = new Swiper(".fabricSwiper", {
     spaceBetween: 30,
     slidesPerGroup: 4,
     loop: true,
+    isBeginning: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
