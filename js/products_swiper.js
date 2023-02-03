@@ -1,17 +1,13 @@
 var swiper = new Swiper(".productSwiper", {
-    slidesPerView: 2,
+    slidesPerView: 4,
     spaceBetween: 30,
-    slidesPerGroup: 2,
+    slidesPerGroup: 4,
     loop: true,
-    loopFillGroupWithBlank: true,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
     navigation: {
       nextEl: ".product-button-next",
       prevEl: ".product-button-prev",
     },
+    centeredSlides: true,
     updateOnWindowResize: true,
     mousewheel: true,
     keyboard: true,
@@ -21,7 +17,6 @@ var swiper = new Swiper(".productSwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,
-            // centeredSlides: true,
         },
         // desktop >= 991
         991: {
