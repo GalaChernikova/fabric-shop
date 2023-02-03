@@ -16,9 +16,10 @@ var swiper = new Swiper(".fabricSwiper", {
         // mobile + tablet - 320-990
         320: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 10,
             slidesPerGroup: 1,
             loop: false,
+            centeredSlides: true,
         },
         // desktop >= 991
         991: {

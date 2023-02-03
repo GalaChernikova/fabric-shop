@@ -66,6 +66,7 @@
 
     .banner-slider{
         display: none;
+        margin: 0;
     }
     .banner-slider-mobile{
         display: block;
@@ -303,7 +304,7 @@
     .products,
     .fabric,
     .feedback {
-        max-width: 410px;
+        max-width: 430px;
     }
     .productSwiper,
     .fabricSwiper,
