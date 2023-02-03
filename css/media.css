@@ -304,11 +304,17 @@
     .feedback-tit{
         margin-left: 20px;
     }
+    .feedback-box{
+        padding: 20px;
+    }
+    .feedback-slide{
+        width: 255px !important;
+    }
 
 
     .feedback-text {
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 19px;
     }
 
     .product-slide__price,
