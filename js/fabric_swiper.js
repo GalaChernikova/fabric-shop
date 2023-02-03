@@ -18,7 +18,7 @@ var swiper = new Swiper(".fabricSwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,
-            // centeredSlides: true,
+            loop: false,
         },
         // desktop >= 991
         991: {

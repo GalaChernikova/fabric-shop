@@ -3,7 +3,7 @@ var swiper = new Swiper(".feedbackSwiper", {
     spaceBetween: 18,
     slidesPerGroup: 2,
     loop: true,
-    // isBeginning: true,
+    
     navigation: {
       nextEl: ".feedback-next",
       prevEl: ".feedback-prev",
@@ -18,12 +18,17 @@ var swiper = new Swiper(".feedbackSwiper", {
             slidesPerView: 1,
             spaceBetween: 30,
             slidesPerGroup: 1,
+            centeredSlides: true,
+            isBeginning: true,
+            loop: false,
         },
         850: {
             slidesPerView: 1,
             spaceBetween: 30,
             slidesPerGroup: 1,
             centeredSlides: true,
+            isBeginning: true,
+            loop: false,
         },
         // desktop >= 991
         991: {
