@@ -47,7 +47,8 @@
     .product-slide,
     .fabric-slide,
     .feedback-slide{
-        width: 50% !important
+        width: 70% !important;
+        margin: 0 10px 0 20px !important;
     }
 }
 
@@ -265,8 +266,13 @@
 }
 
 @media (max-width: 450px){
+    .bannerSwiper{
+        max-width: 430px;
+        margin: 0;
+    }
 
     .tit{
+        max-width: 430px;
         font-size: 25px;
         line-height: 30px;
     }
@@ -297,13 +303,13 @@
     .products,
     .fabric,
     .feedback {
-        max-width: 430px;
+        max-width: 410px;
     }
     .productSwiper,
     .fabricSwiper,
     .feedbackSwiper {
         max-width: 430px;
-        padding-left: 20px !important;
+        
     }
     .products-tit,
     .fabric-tit,
@@ -343,6 +349,14 @@
 
 }
 @media (max-width: 428px){
+    .bannerSwiper{
+        max-width: 428px;
+    }
+
+    .tit{
+        max-width: 428px;
+    }
+
     .category-mobile,
     .social,
     .about{
@@ -366,6 +380,14 @@
     }
 }
 @media (max-width: 414px){
+    .bannerSwiper{
+        max-width: 414px;
+    }
+
+    .tit{
+        max-width: 414px;
+    }
+
     .category-mobile,
     .social,
     .about{
@@ -389,6 +411,14 @@
     }
 }
 @media (max-width: 393px){
+    .bannerSwiper{
+        max-width: 393px;
+    }
+
+    .tit{
+        max-width: 393px;
+    }
+
     .category-mobile,
     .social,
     .about{
@@ -413,6 +443,14 @@
 }
 
 @media (max-width: 390px){
+    .bannerSwiper{
+        max-width: 390px;
+    }
+
+    .tit{
+        max-width: 390px;
+    }
+
     .category-mobile,
     .social,
     .about{
@@ -436,6 +474,14 @@
     }
 }
 @media (max-width: 375px){
+    .bannerSwiper{
+        max-width: 375px;
+    }
+
+    .tit{
+        max-width: 375px;
+    }
+
     .category-mobile,
     .social,
     .about{
@@ -459,6 +505,14 @@
     }
 }
 @media (max-width: 360px){
+    .bannerSwiper{
+        max-width: 360px;
+    }
+
+    .tit{
+        max-width: 360px;
+    }
+
     .category-mobile,
     .social,
     .about{
@@ -483,11 +537,16 @@
 }
 
 @media (max-width: 320px){
+    .bannerSwiper{
+        max-width: 320px;
+    }
+
+    .tit{
+        max-width: 320px;
+    }
+
     .category-mobile,
-    .products,
-    .fabric,
     .social,
-    .feedback,
     .about{
         max-width: 290px;
         width: 100%;        

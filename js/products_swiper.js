@@ -3,7 +3,7 @@ var swiper = new Swiper(".productSwiper", {
     spaceBetween: 30,
     slidesPerGroup: 4,
     loop: true,
-    isBeginning: true,
+    // isBeginning: true,
     navigation: {
       nextEl: ".product-button-next",
       prevEl: ".product-button-prev",
@@ -15,7 +15,7 @@ var swiper = new Swiper(".productSwiper", {
     breakpoints: {
         // mobile + tablet - 320-990
         320: {
-            slidesPerView: 1,
+            slidesPerView: "1",
             spaceBetween: 20,
             slidesPerGroup: 1,
             loop: false,
