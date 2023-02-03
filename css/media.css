@@ -47,9 +47,10 @@
     .product-slide,
     .fabric-slide,
     .feedback-slide{
-        width: 70% !important;
-        margin: 0 10px 0 20px !important;
+        width: 90% !important;
+        margin: 0 10px !important;
     }
+
 }
 
 @media (max-width: 850px){
@@ -556,6 +557,9 @@
     .fabricSwiper,
     .feedbackSwiper {
         max-width: 320px;
+    }
+    .product-slide, .fabric-slide, .feedback-slide {
+        width: 252px !important;
     }
     .text-list--mobile li{
         font-weight: 400;

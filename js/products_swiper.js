@@ -16,9 +16,12 @@ var swiper = new Swiper(".productSwiper", {
         // mobile + tablet - 320-990
         320: {
             slidesPerView: "1",
-            spaceBetween: 20,
+            spaceBetween: 10,
             slidesPerGroup: 1,
+            centeredSlides: true,
+            isBeginning: true,
             loop: false,
+            
         },
         // desktop >= 991
         991: {
